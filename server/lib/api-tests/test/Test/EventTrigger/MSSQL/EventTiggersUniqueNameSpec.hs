@@ -2,7 +2,11 @@
 {-# LANGUAGE ViewPatterns #-}
 
 -- | Test that only event triggers with unique names are allowed
+<<<<<<<< HEAD:server/lib/api-tests/test/Test/EventTrigger/MSSQL/EventTiggersUniqueNameSpec.hs
 module Test.EventTrigger.MSSQL.EventTiggersUniqueNameSpec (spec) where
+========
+module Test.EventTriggers.MSSQL.EventTriggersUniqueNameSpec (spec) where
+>>>>>>>> 32a316aef7 (server: provide an option to enable event triggers on logically replicated tables):server/lib/api-tests/test/Test/EventTrigger/MSSQL/EventTriggersUniqueNameSpec.hs
 
 import Control.Concurrent.Chan qualified as Chan
 import Data.Aeson (Value (..))
