@@ -1,7 +1,12 @@
 {-# LANGUAGE QuasiQuotes #-}
 
+<<<<<<<< HEAD:server/lib/api-tests/test/Test/BigQuery/ComputedFieldSpec.hs
 -- | All tests related to computed fields in a BigQuery source
 module Test.BigQuery.ComputedFieldSpec (spec) where
+========
+-- | All tests related to computed fields
+module Test.Schema.ComputedFields.TableSpec (spec) where
+>>>>>>>> 74e30b8b0b (Server/tests: Scalar Computed Fields > Postgres):server/lib/api-tests/src/Test/Schema/ComputedFields/TableSpec.hs
 
 import Data.List.NonEmpty qualified as NE
 import Data.Text qualified as T
